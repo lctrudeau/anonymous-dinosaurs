@@ -9,10 +9,10 @@ Team Project - 8-bit Booth Multiplier
 -----
 
 Team Members  
-.dinosaur 1 : Marco Kassis          - marco.kassis@mail.mcgill.ca
-.dinosaur 2 : Aryan Mojtahedi       - aryan.mojtahedi@mail.mcgill.ca 
-.dinosaur 3 : Dimitrios Stamoulis   - dimitrios.stamoulis@mail.mcgill.ca
-.dinosaur 4 : Louis-Charles Trudeau - louis-charles.trudeau@mail.mcgill.ca
+* dinosaur 1 : Marco Kassis          - marco.kassis@mail.mcgill.ca
+* dinosaur 2 : Aryan Mojtahedi       - aryan.mojtahedi@mail.mcgill.ca 
+* dinosaur 3 : Dimitrios Stamoulis   - dimitrios.stamoulis@mail.mcgill.ca
+* dinosaur 4 : Louis-Charles Trudeau - louis-charles.trudeau@mail.mcgill.ca
 
 
 
