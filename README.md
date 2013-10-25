@@ -4,7 +4,9 @@ anonymous-dinosaurs
 ECSE 548: Introduction to VLSI Design	
 Team Project - 8-bit Booth Multiplier
 
-~~~~
+![alt tag](http://collider.com/wp-content/uploads/toy-story-2-slice.jpg)
+
+-----
 
 Team Members  
 .dinosaur 1 : Marco Kassis          - marco.kassis@mail.mcgill.ca
