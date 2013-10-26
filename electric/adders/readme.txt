@@ -1,2 +1,8 @@
-we should figure out how the
-electric files will be updated.
+~~~~~~~~~~~~~~~~~~~~~~~~
+dstamoulis - 10/25
+--> 'adders' branch created
+
+TODO :
+.compressor schematic
+.compressor layout
+
