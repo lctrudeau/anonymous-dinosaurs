@@ -10,7 +10,7 @@
 
 
 %My packages
-\usepackage{graphicx}
+\usepackage{graphicx,dblfloatfix}
 \graphicspath{{./figures/}}
 \usepackage[xetex,colorlinks=true,urlcolor = black, 
 linkcolor=black,citecolor=black]{hyperref}
@@ -21,57 +21,92 @@ linkcolor=black,citecolor=black]{hyperref}
 
 
 \begin{document}
+
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{ECSE 548 - Status Report:\\8-bit Booth Multiplier}
-
-%\vspace{-20pt}
+\title{ECSE 548 - Project Status Report:\\ 8-bit Booth Multiplier}
 \author{\IEEEauthorblockN{Marco Kassis,
 Aryan Mojtahedi,
 Dimitrios Stamoulis and
 Louis-Charles Trudeau}
 \IEEEauthorblockA{Department of Electrical and Computer Engineering\\
-McGill University, Montreal, Canada}}
+McGill University, Montreal, Canada}
 
+\includegraphics[height=0.35\textheight, width=0.7\linewidth]{BoothTopLevel.pdf}
+\\Fig. 1. Top-Level Design\\~\\
+}
 
 % make the title area
 \maketitle
 \IEEEpeerreviewmaketitle
 
-%~\\
-%\vspace{+10pt}
-\section{Introduction}
-\IEEEPARstart{T}{he} current document is the 
-submitted Status Report for the 
-ECSE 548: Introduction to VLSI Systems	
-course. A brief description of 
-the completed action points follows. 
-%\hfill October 09, 2013
-
 
 
 \section{Completed Deliverables}
-\subsection{Design part}
+Design part:
+\begin{itemize}
+\item \textbf{Exploration of the Modified Booth algorithm:}
+Our first step was to extensively 
+explore the Modified Booth algorithm.
+We selected ...
+(TODO :  Louis, will need your magic here).
 
-Hmmm...
+\item \textbf{Application in the 8-bit multiplier case:}
+Having the functionality of our design 
+well defined, we proceed with the Top-Level design 
+of our 8-bit Booth Multiplier.
+The outcome of such an exploration is presented
+in Figure 1.
+
+\end{itemize}
+
+Implementation part:
+\begin{itemize}
+\item \textbf{Circuit schematics:}
+We first implemented 
+any required basic logic gates (e.g optimized 
+XNOR gate) and added them to the
+\texttt{muddlib07.jelib} Electic library.
+We then created the building blocks of our design
+(e.g Booth Encoder, Partial Product Generator etc)
+and added them to the
+\texttt{wordlib8.jelib} Electic library.
+The top-level schematic was added to 
+the \texttt{mips8.jelib} Electic library.
 
 
-\subsection{Implementation Part}
+\item \textbf{Verified correctness of modules:}
+All the designed schematics they do pass the 
+DRC check using Electric.
 
-Hmmm(cont'd)...
+\item \textbf{Complete testbenching procedure}
+The proper Verilog decks were generated using
+Electic. All the individual submodules and the
+main building blocks were tested using the 
+appropriate Modelsim testbenches.
+
+\end{itemize}
+
+
 
 
 \section{Encountered Issues}
 
-Not really...
-
+No issues were issues encountered
+in carrying out	the aforementioned 
+deliverables. The implementation were
+straight-forward and the verification
+of their correctness was completed with
+the proper DRC checks and Modelsim 
+testbenches.
 
 \section{Changes in the implementation plan}
 
-\begin{itemize}
-\item Change 1... 
-\item Oh wait, there is a ``Change 2'' 
-\end{itemize}
+No need for any changes in the implementation
+procedure. On the contrary, we are one week ahead
+based on our initial implementation plan and we
+have already started studying the
+layout (area minimization, transistor sizing etc)
 
 
 %\section{Conclusion}
@@ -96,6 +131,9 @@ Electric open-source EDA system,
 
 
 \end{thebibliography}
+
+
+
 
 % that's all folks
 \end{document}
