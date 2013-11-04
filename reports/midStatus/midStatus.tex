@@ -25,14 +25,18 @@ linkcolor=black,citecolor=black]{hyperref}
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 \title{ECSE 548 - Project Status Report:\\ 8-bit Booth Multiplier}
+%\author{\IEEEauthorblockN{Marco Kassis\IEEEauthorrefmark{1},
+%Aryan Mojtahedi\IEEEauthorrefmark{1},
+%Dimitrios Stamoulis\IEEEauthorrefmark{1} and
+%Louis-Charles Trudeau\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}McGill University, Montreal, Canada ~~~~~ \IEEEauthorrefmark{2}Ecole de technologie superieure, Montreal, Canada}
 \author{\IEEEauthorblockN{Marco Kassis,
 Aryan Mojtahedi,
 Dimitrios Stamoulis and
 Louis-Charles Trudeau}
-\IEEEauthorblockA{Department of Electrical and Computer Engineering\\
-McGill University, Montreal, Canada}
+\IEEEauthorblockA{Department of Electrical and Computer Engineering, McGill University, Montreal, Canada}
 
-\includegraphics[height=0.35\textheight, width=0.7\linewidth]{BoothTopLevel.pdf}
+\includegraphics[height=0.3\textheight, width=0.7\linewidth]{BoothTopLevel.pdf}
 \\Fig. 1. Top-Level Design\\~\\
 }
 
@@ -40,16 +44,20 @@ McGill University, Montreal, Canada}
 \maketitle
 \IEEEpeerreviewmaketitle
 
+\section{Introduction}
+\IEEEPARstart{T}{he} current document is the 
+submitted Project Status Report written in 
+\LaTeX ~ IEEE format. The steps of
+our design plan were completed under \textbf{version control}.
+The proper GitHub Repo has been created \cite{git}. 
 
 
-\section{Completed Deliverables}
+\section{Completed Deliverables\cite{gitDel}}
 Design part:
 \begin{itemize}
 \item \textbf{Exploration of the Modified Booth algorithm:}
-Our first step was to extensively 
-explore the Modified Booth algorithm.
-We selected ...
-(TODO :  Louis, will need your magic here).
+The theoretical background was studied based on 
+related online material and our textbook\cite{tb}.
 
 \item \textbf{Application in the 8-bit multiplier case:}
 Having the functionality of our design 
@@ -67,9 +75,9 @@ We first implemented
 any required basic logic gates (e.g optimized 
 XNOR gate) and added them to the
 \texttt{muddlib07.jelib} Electic library.
-We then created the building blocks of our design
+The building blocks of our design
 (e.g Booth Encoder, Partial Product Generator etc)
-and added them to the
+were created and added to the
 \texttt{wordlib8.jelib} Electic library.
 The top-level schematic was added to 
 the \texttt{mips8.jelib} Electic library.
@@ -122,12 +130,19 @@ layout (area minimization, transistor sizing etc)
 % references section
 \begin{thebibliography}{1}
 
+\bibitem{git}
+GitHub - Project Repository,
+\href{https://github.com/dstamoulis/anonymous-dinosaurs}{https://github.com/dstamoulis/anonymous-dinosaurs}.
+
+
+
+\bibitem{gitDel}
+GitRepo - Project Status Report,
+\href{https://github.com/dstamoulis/anonymous-dinosaurs/tree/master/ProjectStatusReport}{https://github.com/dstamoulis/anonymous-dinosaurs/tree/master/ProjectStatusReport}.
+
 \bibitem{tb}
 Weste and Harris, \emph{CMOS VLSI Design}, $4^{th}$ edition, Addison-Wesley, 2011.	
 
-\bibitem{electric}
-Electric open-source EDA system,
-\href{http://www.staticfreesoft.com/}{http://www.staticfreesoft.com/}.
 
 
 \end{thebibliography}
