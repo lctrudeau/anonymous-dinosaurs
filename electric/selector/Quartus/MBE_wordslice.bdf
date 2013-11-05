@@ -1,0 +1,445 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 88 40 256 56)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "X[7..0]" (rect 5 0 37 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 696 32 872 48)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Negate[3..0]" (rect 90 0 151 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 696 48 872 64)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Single[3..0]" (rect 90 0 145 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 696 64 872 80)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Double[3..0]" (rect 90 0 150 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 368 64 504 160)
+	(text "MBE" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Xn_p1" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "Xn_p1" (rect 21 27 57 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Xn" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "Xn" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Xn_m1" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Xn_m1" (rect 21 59 59 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Negate" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "Negate" (rect 75 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Double" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Double" (rect 77 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Single" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "Single" (rect 81 59 115 73)(font "Arial" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 368 176 504 272)
+	(text "MBE" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Xn_p1" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "Xn_p1" (rect 21 27 57 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Xn" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "Xn" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Xn_m1" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Xn_m1" (rect 21 59 59 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Negate" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "Negate" (rect 75 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Double" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Double" (rect 77 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Single" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "Single" (rect 81 59 115 73)(font "Arial" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 368 288 504 384)
+	(text "MBE" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Xn_p1" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "Xn_p1" (rect 21 27 57 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Xn" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "Xn" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Xn_m1" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Xn_m1" (rect 21 59 59 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Negate" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "Negate" (rect 75 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Double" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Double" (rect 77 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Single" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "Single" (rect 81 59 115 73)(font "Arial" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 368 400 504 496)
+	(text "MBE" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Xn_p1" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "Xn_p1" (rect 21 27 57 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Xn" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "Xn" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Xn_m1" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Xn_m1" (rect 21 59 59 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Negate" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "Negate" (rect 75 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Double" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "Double" (rect 77 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "Single" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "Single" (rect 81 59 115 73)(font "Arial" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
+(symbol
+	(rect 296 480 328 512)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst16" (rect 3 21 32 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(connector
+	(text "X[7]" (rect 336 80 354 92)(font "Arial" ))
+	(pt 328 96)
+	(pt 368 96)
+)
+(connector
+	(text "X[6]" (rect 340 96 358 108)(font "Arial" ))
+	(pt 328 112)
+	(pt 368 112)
+)
+(connector
+	(text "X[5]" (rect 342 112 360 124)(font "Arial" ))
+	(pt 328 128)
+	(pt 368 128)
+)
+(connector
+	(text "X[5]" (rect 334 192 352 204)(font "Arial" ))
+	(pt 328 208)
+	(pt 368 208)
+)
+(connector
+	(text "X[4]" (rect 342 208 360 220)(font "Arial" ))
+	(pt 328 224)
+	(pt 368 224)
+)
+(connector
+	(text "X[3]" (rect 342 224 360 236)(font "Arial" ))
+	(pt 328 240)
+	(pt 368 240)
+)
+(connector
+	(text "X[3]" (rect 327 304 345 316)(font "Arial" ))
+	(pt 328 320)
+	(pt 368 320)
+)
+(connector
+	(text "X[2]" (rect 337 320 355 332)(font "Arial" ))
+	(pt 328 336)
+	(pt 368 336)
+)
+(connector
+	(text "X[1]" (rect 337 336 355 348)(font "Arial" ))
+	(pt 328 352)
+	(pt 368 352)
+)
+(connector
+	(text "X[1]" (rect 336 416 354 428)(font "Arial" ))
+	(pt 328 432)
+	(pt 368 432)
+)
+(connector
+	(text "X[0]" (rect 340 432 358 444)(font "Arial" ))
+	(pt 328 448)
+	(pt 368 448)
+)
+(connector
+	(pt 312 464)
+	(pt 368 464)
+)
+(connector
+	(pt 312 464)
+	(pt 312 480)
+)
+(connector
+	(text "Negate[3]" (rect 539 80 587 92)(font "Arial" ))
+	(pt 504 96)
+	(pt 560 96)
+)
+(connector
+	(text "Negate[2]" (rect 539 192 587 204)(font "Arial" ))
+	(pt 504 208)
+	(pt 560 208)
+)
+(connector
+	(text "Negate[1]" (rect 539 304 587 316)(font "Arial" ))
+	(pt 504 320)
+	(pt 560 320)
+)
+(connector
+	(text "Negate[0]" (rect 539 416 587 428)(font "Arial" ))
+	(pt 504 432)
+	(pt 560 432)
+)
+(connector
+	(text "Double[3]" (rect 539 96 586 108)(font "Arial" ))
+	(pt 504 112)
+	(pt 560 112)
+)
+(connector
+	(text "Single[3]" (rect 539 112 581 124)(font "Arial" ))
+	(pt 504 128)
+	(pt 560 128)
+)
+(connector
+	(text "Double[2]" (rect 539 208 586 220)(font "Arial" ))
+	(pt 504 224)
+	(pt 560 224)
+)
+(connector
+	(text "Double[1]" (rect 539 320 586 332)(font "Arial" ))
+	(pt 504 336)
+	(pt 560 336)
+)
+(connector
+	(text "Double[0]" (rect 539 432 586 444)(font "Arial" ))
+	(pt 504 448)
+	(pt 560 448)
+)
+(connector
+	(text "Single[2]" (rect 539 224 581 236)(font "Arial" ))
+	(pt 504 240)
+	(pt 560 240)
+)
+(connector
+	(text "Single[1]" (rect 539 336 581 348)(font "Arial" ))
+	(pt 504 352)
+	(pt 560 352)
+)
+(connector
+	(text "Single[0]" (rect 539 448 581 460)(font "Arial" ))
+	(pt 504 464)
+	(pt 560 464)
+)
+(connector
+	(pt 256 48)
+	(pt 304 48)
+	(bus)
+)
+(connector
+	(pt 696 40)
+	(pt 656 40)
+	(bus)
+)
+(connector
+	(pt 696 56)
+	(pt 656 56)
+	(bus)
+)
+(connector
+	(pt 696 72)
+	(pt 656 72)
+	(bus)
+)

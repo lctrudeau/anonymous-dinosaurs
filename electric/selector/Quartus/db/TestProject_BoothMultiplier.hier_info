@@ -1,0 +1,2068 @@
+|DUT
+Sign3 <= BoothMultiplier8x8:inst.Sign3
+X[0] => BoothMultiplier8x8:inst.X[0]
+X[0] => testMUL:inst1.datab[0]
+X[1] => BoothMultiplier8x8:inst.X[1]
+X[1] => testMUL:inst1.datab[1]
+X[2] => BoothMultiplier8x8:inst.X[2]
+X[2] => testMUL:inst1.datab[2]
+X[3] => BoothMultiplier8x8:inst.X[3]
+X[3] => testMUL:inst1.datab[3]
+X[4] => BoothMultiplier8x8:inst.X[4]
+X[4] => testMUL:inst1.datab[4]
+X[5] => BoothMultiplier8x8:inst.X[5]
+X[5] => testMUL:inst1.datab[5]
+X[6] => BoothMultiplier8x8:inst.X[6]
+X[6] => testMUL:inst1.datab[6]
+X[7] => BoothMultiplier8x8:inst.X[7]
+X[7] => testMUL:inst1.datab[7]
+Y[0] => BoothMultiplier8x8:inst.Y[0]
+Y[0] => testMUL:inst1.dataa[0]
+Y[1] => BoothMultiplier8x8:inst.Y[1]
+Y[1] => testMUL:inst1.dataa[1]
+Y[2] => BoothMultiplier8x8:inst.Y[2]
+Y[2] => testMUL:inst1.dataa[2]
+Y[3] => BoothMultiplier8x8:inst.Y[3]
+Y[3] => testMUL:inst1.dataa[3]
+Y[4] => BoothMultiplier8x8:inst.Y[4]
+Y[4] => testMUL:inst1.dataa[4]
+Y[5] => BoothMultiplier8x8:inst.Y[5]
+Y[5] => testMUL:inst1.dataa[5]
+Y[6] => BoothMultiplier8x8:inst.Y[6]
+Y[6] => testMUL:inst1.dataa[6]
+Y[7] => BoothMultiplier8x8:inst.Y[7]
+Y[7] => testMUL:inst1.dataa[7]
+Sign2 <= BoothMultiplier8x8:inst.Sign2
+Sign1 <= BoothMultiplier8x8:inst.Sign1
+Sign0 <= BoothMultiplier8x8:inst.Sign0
+DBL[0] <= BoothMultiplier8x8:inst.DBL[0]
+DBL[1] <= BoothMultiplier8x8:inst.DBL[1]
+DBL[2] <= BoothMultiplier8x8:inst.DBL[2]
+DBL[3] <= BoothMultiplier8x8:inst.DBL[3]
+Error[0] <= Mult_tester:inst2.Test[0]
+Error[1] <= Mult_tester:inst2.Test[1]
+Error[2] <= Mult_tester:inst2.Test[2]
+Error[3] <= Mult_tester:inst2.Test[3]
+Error[4] <= Mult_tester:inst2.Test[4]
+Error[5] <= Mult_tester:inst2.Test[5]
+Error[6] <= Mult_tester:inst2.Test[6]
+Error[7] <= Mult_tester:inst2.Test[7]
+Error[8] <= Mult_tester:inst2.Test[8]
+Error[9] <= Mult_tester:inst2.Test[9]
+Error[10] <= Mult_tester:inst2.Test[10]
+Error[11] <= Mult_tester:inst2.Test[11]
+Error[12] <= Mult_tester:inst2.Test[12]
+Error[13] <= Mult_tester:inst2.Test[13]
+Error[14] <= Mult_tester:inst2.Test[14]
+Error[15] <= Mult_tester:inst2.Test[15]
+NEG[0] <= BoothMultiplier8x8:inst.NEG[0]
+NEG[1] <= BoothMultiplier8x8:inst.NEG[1]
+NEG[2] <= BoothMultiplier8x8:inst.NEG[2]
+NEG[3] <= BoothMultiplier8x8:inst.NEG[3]
+PP0[0] <= BoothMultiplier8x8:inst.PP0[0]
+PP0[1] <= BoothMultiplier8x8:inst.PP0[1]
+PP0[2] <= BoothMultiplier8x8:inst.PP0[2]
+PP0[3] <= BoothMultiplier8x8:inst.PP0[3]
+PP0[4] <= BoothMultiplier8x8:inst.PP0[4]
+PP0[5] <= BoothMultiplier8x8:inst.PP0[5]
+PP0[6] <= BoothMultiplier8x8:inst.PP0[6]
+PP0[7] <= BoothMultiplier8x8:inst.PP0[7]
+PP0[8] <= BoothMultiplier8x8:inst.PP0[8]
+PP1[0] <= BoothMultiplier8x8:inst.PP1[0]
+PP1[1] <= BoothMultiplier8x8:inst.PP1[1]
+PP1[2] <= BoothMultiplier8x8:inst.PP1[2]
+PP1[3] <= BoothMultiplier8x8:inst.PP1[3]
+PP1[4] <= BoothMultiplier8x8:inst.PP1[4]
+PP1[5] <= BoothMultiplier8x8:inst.PP1[5]
+PP1[6] <= BoothMultiplier8x8:inst.PP1[6]
+PP1[7] <= BoothMultiplier8x8:inst.PP1[7]
+PP1[8] <= BoothMultiplier8x8:inst.PP1[8]
+PP2[0] <= BoothMultiplier8x8:inst.PP2[0]
+PP2[1] <= BoothMultiplier8x8:inst.PP2[1]
+PP2[2] <= BoothMultiplier8x8:inst.PP2[2]
+PP2[3] <= BoothMultiplier8x8:inst.PP2[3]
+PP2[4] <= BoothMultiplier8x8:inst.PP2[4]
+PP2[5] <= BoothMultiplier8x8:inst.PP2[5]
+PP2[6] <= BoothMultiplier8x8:inst.PP2[6]
+PP2[7] <= BoothMultiplier8x8:inst.PP2[7]
+PP2[8] <= BoothMultiplier8x8:inst.PP2[8]
+PP3[0] <= BoothMultiplier8x8:inst.PP3[0]
+PP3[1] <= BoothMultiplier8x8:inst.PP3[1]
+PP3[2] <= BoothMultiplier8x8:inst.PP3[2]
+PP3[3] <= BoothMultiplier8x8:inst.PP3[3]
+PP3[4] <= BoothMultiplier8x8:inst.PP3[4]
+PP3[5] <= BoothMultiplier8x8:inst.PP3[5]
+PP3[6] <= BoothMultiplier8x8:inst.PP3[6]
+PP3[7] <= BoothMultiplier8x8:inst.PP3[7]
+PP3[8] <= BoothMultiplier8x8:inst.PP3[8]
+Result[0] <= BoothMultiplier8x8:inst.Result[0]
+Result[1] <= BoothMultiplier8x8:inst.Result[1]
+Result[2] <= BoothMultiplier8x8:inst.Result[2]
+Result[3] <= BoothMultiplier8x8:inst.Result[3]
+Result[4] <= BoothMultiplier8x8:inst.Result[4]
+Result[5] <= BoothMultiplier8x8:inst.Result[5]
+Result[6] <= BoothMultiplier8x8:inst.Result[6]
+Result[7] <= BoothMultiplier8x8:inst.Result[7]
+Result[8] <= BoothMultiplier8x8:inst.Result[8]
+Result[9] <= BoothMultiplier8x8:inst.Result[9]
+Result[10] <= BoothMultiplier8x8:inst.Result[10]
+Result[11] <= BoothMultiplier8x8:inst.Result[11]
+Result[12] <= BoothMultiplier8x8:inst.Result[12]
+Result[13] <= BoothMultiplier8x8:inst.Result[13]
+Result[14] <= BoothMultiplier8x8:inst.Result[14]
+Result[15] <= BoothMultiplier8x8:inst.Result[15]
+Result_Compare[0] <= testMUL:inst1.result[0]
+Result_Compare[1] <= testMUL:inst1.result[1]
+Result_Compare[2] <= testMUL:inst1.result[2]
+Result_Compare[3] <= testMUL:inst1.result[3]
+Result_Compare[4] <= testMUL:inst1.result[4]
+Result_Compare[5] <= testMUL:inst1.result[5]
+Result_Compare[6] <= testMUL:inst1.result[6]
+Result_Compare[7] <= testMUL:inst1.result[7]
+Result_Compare[8] <= testMUL:inst1.result[8]
+Result_Compare[9] <= testMUL:inst1.result[9]
+Result_Compare[10] <= testMUL:inst1.result[10]
+Result_Compare[11] <= testMUL:inst1.result[11]
+Result_Compare[12] <= testMUL:inst1.result[12]
+Result_Compare[13] <= testMUL:inst1.result[13]
+Result_Compare[14] <= testMUL:inst1.result[14]
+Result_Compare[15] <= testMUL:inst1.result[15]
+SGL[0] <= BoothMultiplier8x8:inst.SGL[0]
+SGL[1] <= BoothMultiplier8x8:inst.SGL[1]
+SGL[2] <= BoothMultiplier8x8:inst.SGL[2]
+SGL[3] <= BoothMultiplier8x8:inst.SGL[3]
+
+
+|DUT|BoothMultiplier8x8:inst
+Sign3 <= <GND>
+Sign2 <= PPgen_wordslice:inst.Sign2
+DBL[0] <= MBE_wordslice:inst2.Double[0]
+DBL[1] <= MBE_wordslice:inst2.Double[1]
+DBL[2] <= MBE_wordslice:inst2.Double[2]
+DBL[3] <= MBE_wordslice:inst2.Double[3]
+X[0] => MBE_wordslice:inst2.X[0]
+X[1] => MBE_wordslice:inst2.X[1]
+X[2] => MBE_wordslice:inst2.X[2]
+X[3] => MBE_wordslice:inst2.X[3]
+X[4] => MBE_wordslice:inst2.X[4]
+X[5] => MBE_wordslice:inst2.X[5]
+X[6] => MBE_wordslice:inst2.X[6]
+X[7] => MBE_wordslice:inst2.X[7]
+X[7] => inst14.IN1
+NEG[0] <= MBE_wordslice:inst2.Negate[0]
+NEG[1] <= MBE_wordslice:inst2.Negate[1]
+NEG[2] <= MBE_wordslice:inst2.Negate[2]
+NEG[3] <= MBE_wordslice:inst2.Negate[3]
+SGL[0] <= MBE_wordslice:inst2.Single[0]
+SGL[1] <= MBE_wordslice:inst2.Single[1]
+SGL[2] <= MBE_wordslice:inst2.Single[2]
+SGL[3] <= MBE_wordslice:inst2.Single[3]
+Y[0] => PPgen_wordslice:inst.Y[0]
+Y[1] => PPgen_wordslice:inst.Y[1]
+Y[2] => PPgen_wordslice:inst.Y[2]
+Y[3] => PPgen_wordslice:inst.Y[3]
+Y[4] => PPgen_wordslice:inst.Y[4]
+Y[5] => PPgen_wordslice:inst.Y[5]
+Y[6] => PPgen_wordslice:inst.Y[6]
+Y[7] => PPgen_wordslice:inst.Y[7]
+Y[7] => inst14.IN0
+Sign1 <= PPgen_wordslice:inst.Sign1
+Sign0 <= PPgen_wordslice:inst.Sign0
+PP0[0] <= PPgen_wordslice:inst.PP0[0]
+PP0[1] <= PPgen_wordslice:inst.PP0[1]
+PP0[2] <= PPgen_wordslice:inst.PP0[2]
+PP0[3] <= PPgen_wordslice:inst.PP0[3]
+PP0[4] <= PPgen_wordslice:inst.PP0[4]
+PP0[5] <= PPgen_wordslice:inst.PP0[5]
+PP0[6] <= PPgen_wordslice:inst.PP0[6]
+PP0[7] <= PPgen_wordslice:inst.PP0[7]
+PP0[8] <= PPgen_wordslice:inst.PP0[8]
+PP1[0] <= PPgen_wordslice:inst.PP1[0]
+PP1[1] <= PPgen_wordslice:inst.PP1[1]
+PP1[2] <= PPgen_wordslice:inst.PP1[2]
+PP1[3] <= PPgen_wordslice:inst.PP1[3]
+PP1[4] <= PPgen_wordslice:inst.PP1[4]
+PP1[5] <= PPgen_wordslice:inst.PP1[5]
+PP1[6] <= PPgen_wordslice:inst.PP1[6]
+PP1[7] <= PPgen_wordslice:inst.PP1[7]
+PP1[8] <= PPgen_wordslice:inst.PP1[8]
+PP2[0] <= PPgen_wordslice:inst.PP2[0]
+PP2[1] <= PPgen_wordslice:inst.PP2[1]
+PP2[2] <= PPgen_wordslice:inst.PP2[2]
+PP2[3] <= PPgen_wordslice:inst.PP2[3]
+PP2[4] <= PPgen_wordslice:inst.PP2[4]
+PP2[5] <= PPgen_wordslice:inst.PP2[5]
+PP2[6] <= PPgen_wordslice:inst.PP2[6]
+PP2[7] <= PPgen_wordslice:inst.PP2[7]
+PP2[8] <= PPgen_wordslice:inst.PP2[8]
+PP3[0] <= PPgen_wordslice:inst.PP3[0]
+PP3[1] <= PPgen_wordslice:inst.PP3[1]
+PP3[2] <= PPgen_wordslice:inst.PP3[2]
+PP3[3] <= PPgen_wordslice:inst.PP3[3]
+PP3[4] <= PPgen_wordslice:inst.PP3[4]
+PP3[5] <= PPgen_wordslice:inst.PP3[5]
+PP3[6] <= PPgen_wordslice:inst.PP3[6]
+PP3[7] <= PPgen_wordslice:inst.PP3[7]
+PP3[8] <= PPgen_wordslice:inst.PP3[8]
+Result[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Result[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Result[2] <= CRA_wordslice:inst6.S[0]
+Result[3] <= CRA_wordslice:inst6.S[1]
+Result[4] <= CRA_wordslice:inst6.S[2]
+Result[5] <= CRA_wordslice:inst6.S[3]
+Result[6] <= CRA_wordslice:inst6.S[4]
+Result[7] <= CRA_wordslice:inst6.S[5]
+Result[8] <= CRA_wordslice:inst6.S[6]
+Result[9] <= CRA_wordslice:inst6.S[7]
+Result[10] <= CRA_wordslice:inst6.S[8]
+Result[11] <= CRA_wordslice:inst6.S[9]
+Result[12] <= CRA_wordslice:inst6.S[10]
+Result[13] <= CRA_wordslice:inst6.S[11]
+Result[14] <= CRA_wordslice:inst6.S[12]
+Result[15] <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst
+Sign3 <= PPgen_9bits:inst.Sign
+Single[0] => PPgen_9bits:inst5.Single
+Single[1] => PPgen_9bits:inst4.Single
+Single[2] => PPgen_9bits:inst3.Single
+Single[3] => PPgen_9bits:inst.Single
+Double[0] => PPgen_9bits:inst5.Double
+Double[1] => PPgen_9bits:inst4.Double
+Double[2] => PPgen_9bits:inst3.Double
+Double[3] => PPgen_9bits:inst.Double
+Negate[0] => PPgen_9bits:inst5.Negate
+Negate[1] => PPgen_9bits:inst4.Negate
+Negate[2] => PPgen_9bits:inst3.Negate
+Negate[3] => PPgen_9bits:inst.Negate
+Y[0] => PPgen_9bits:inst.Y[0]
+Y[0] => PPgen_9bits:inst3.Y[0]
+Y[0] => PPgen_9bits:inst4.Y[0]
+Y[0] => PPgen_9bits:inst5.Y[0]
+Y[1] => PPgen_9bits:inst.Y[1]
+Y[1] => PPgen_9bits:inst3.Y[1]
+Y[1] => PPgen_9bits:inst4.Y[1]
+Y[1] => PPgen_9bits:inst5.Y[1]
+Y[2] => PPgen_9bits:inst.Y[2]
+Y[2] => PPgen_9bits:inst3.Y[2]
+Y[2] => PPgen_9bits:inst4.Y[2]
+Y[2] => PPgen_9bits:inst5.Y[2]
+Y[3] => PPgen_9bits:inst.Y[3]
+Y[3] => PPgen_9bits:inst3.Y[3]
+Y[3] => PPgen_9bits:inst4.Y[3]
+Y[3] => PPgen_9bits:inst5.Y[3]
+Y[4] => PPgen_9bits:inst.Y[4]
+Y[4] => PPgen_9bits:inst3.Y[4]
+Y[4] => PPgen_9bits:inst4.Y[4]
+Y[4] => PPgen_9bits:inst5.Y[4]
+Y[5] => PPgen_9bits:inst.Y[5]
+Y[5] => PPgen_9bits:inst3.Y[5]
+Y[5] => PPgen_9bits:inst4.Y[5]
+Y[5] => PPgen_9bits:inst5.Y[5]
+Y[6] => PPgen_9bits:inst.Y[6]
+Y[6] => PPgen_9bits:inst3.Y[6]
+Y[6] => PPgen_9bits:inst4.Y[6]
+Y[6] => PPgen_9bits:inst5.Y[6]
+Y[7] => PPgen_9bits:inst.Y[7]
+Y[7] => PPgen_9bits:inst3.Y[7]
+Y[7] => PPgen_9bits:inst4.Y[7]
+Y[7] => PPgen_9bits:inst5.Y[7]
+Sign2 <= PPgen_9bits:inst3.Sign
+Sign1 <= PPgen_9bits:inst4.Sign
+Sign0 <= PPgen_9bits:inst5.Sign
+PP0[0] <= PPgen_9bits:inst5.PP[0]
+PP0[1] <= PPgen_9bits:inst5.PP[1]
+PP0[2] <= PPgen_9bits:inst5.PP[2]
+PP0[3] <= PPgen_9bits:inst5.PP[3]
+PP0[4] <= PPgen_9bits:inst5.PP[4]
+PP0[5] <= PPgen_9bits:inst5.PP[5]
+PP0[6] <= PPgen_9bits:inst5.PP[6]
+PP0[7] <= PPgen_9bits:inst5.PP[7]
+PP0[8] <= PPgen_9bits:inst5.PP[8]
+PP1[0] <= PPgen_9bits:inst4.PP[0]
+PP1[1] <= PPgen_9bits:inst4.PP[1]
+PP1[2] <= PPgen_9bits:inst4.PP[2]
+PP1[3] <= PPgen_9bits:inst4.PP[3]
+PP1[4] <= PPgen_9bits:inst4.PP[4]
+PP1[5] <= PPgen_9bits:inst4.PP[5]
+PP1[6] <= PPgen_9bits:inst4.PP[6]
+PP1[7] <= PPgen_9bits:inst4.PP[7]
+PP1[8] <= PPgen_9bits:inst4.PP[8]
+PP2[0] <= PPgen_9bits:inst3.PP[0]
+PP2[1] <= PPgen_9bits:inst3.PP[1]
+PP2[2] <= PPgen_9bits:inst3.PP[2]
+PP2[3] <= PPgen_9bits:inst3.PP[3]
+PP2[4] <= PPgen_9bits:inst3.PP[4]
+PP2[5] <= PPgen_9bits:inst3.PP[5]
+PP2[6] <= PPgen_9bits:inst3.PP[6]
+PP2[7] <= PPgen_9bits:inst3.PP[7]
+PP2[8] <= PPgen_9bits:inst3.PP[8]
+PP3[0] <= PPgen_9bits:inst.PP[0]
+PP3[1] <= PPgen_9bits:inst.PP[1]
+PP3[2] <= PPgen_9bits:inst.PP[2]
+PP3[3] <= PPgen_9bits:inst.PP[3]
+PP3[4] <= PPgen_9bits:inst.PP[4]
+PP3[5] <= PPgen_9bits:inst.PP[5]
+PP3[6] <= PPgen_9bits:inst.PP[6]
+PP3[7] <= PPgen_9bits:inst.PP[7]
+PP3[8] <= PPgen_9bits:inst.PP[8]
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst
+Sign <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+Negate => inst37.IN0
+Negate => PPgen:inst3.Negate
+Negate => PPgen:inst5.Negate
+Negate => PPgen:inst6.Negate
+Negate => PPgen:inst7.Negate
+Negate => PPgen:inst8.Negate
+Negate => PPgen:inst9.Negate
+Negate => HalfAdder:inst20.Cin
+Negate => PPgen:inst2.Negate
+Negate => PPgen:inst4.Negate
+Negate => PPgen:inst1.Negate
+Double => inst37.IN1
+Double => PPgen:inst3.Double
+Double => PPgen:inst5.Double
+Double => PPgen:inst6.Double
+Double => PPgen:inst7.Double
+Double => PPgen:inst8.Double
+Double => PPgen:inst9.Double
+Double => PPgen:inst2.Double
+Double => PPgen:inst4.Double
+Double => PPgen:inst1.Double
+Y[0] => NAND8_reducer:inst36.InY[0]
+Y[0] => PPgen:inst8.Yi_m1
+Y[0] => PPgen:inst9.Yi
+Y[1] => NAND8_reducer:inst36.InY[1]
+Y[1] => PPgen:inst7.Yi_m1
+Y[1] => PPgen:inst8.Yi
+Y[2] => NAND8_reducer:inst36.InY[2]
+Y[2] => PPgen:inst6.Yi_m1
+Y[2] => PPgen:inst7.Yi
+Y[3] => NAND8_reducer:inst36.InY[3]
+Y[3] => PPgen:inst5.Yi_m1
+Y[3] => PPgen:inst6.Yi
+Y[4] => NAND8_reducer:inst36.InY[4]
+Y[4] => PPgen:inst3.Yi_m1
+Y[4] => PPgen:inst5.Yi
+Y[5] => NAND8_reducer:inst36.InY[5]
+Y[5] => PPgen:inst3.Yi
+Y[5] => PPgen:inst4.Yi_m1
+Y[6] => NAND8_reducer:inst36.InY[6]
+Y[6] => PPgen:inst2.Yi_m1
+Y[6] => PPgen:inst4.Yi
+Y[7] => NAND8_reducer:inst36.InY[7]
+Y[7] => PPgen:inst2.Yi
+Y[7] => PPgen:inst1.Yi
+Y[7] => PPgen:inst1.Yi_m1
+PP[0] <= HalfAdder:inst20.Sum
+PP[1] <= HalfAdder:inst11.Sum
+PP[2] <= HalfAdder:inst12.Sum
+PP[3] <= HalfAdder:inst13.Sum
+PP[4] <= HalfAdder:inst14.Sum
+PP[5] <= HalfAdder:inst15.Sum
+PP[6] <= HalfAdder:inst16.Sum
+PP[7] <= HalfAdder:inst17.Sum
+PP[8] <= HalfAdder:inst18.Sum
+Single => PPgen:inst3.Single
+Single => PPgen:inst5.Single
+Single => PPgen:inst6.Single
+Single => PPgen:inst7.Single
+Single => PPgen:inst8.Single
+Single => PPgen:inst9.Single
+Single => PPgen:inst2.Single
+Single => PPgen:inst4.Single
+Single => PPgen:inst1.Single
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|NAND8_reducer:inst36
+Reduced_NAND <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+InY[0] => inst19.IN0
+InY[1] => inst19.IN1
+InY[2] => inst11.IN0
+InY[3] => inst11.IN1
+InY[4] => inst10.IN0
+InY[5] => inst10.IN1
+InY[6] => inst22.IN0
+InY[7] => inst18.IN0
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst15
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst3
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst14
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst5
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst13
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst6
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst12
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst7
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst11
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst8
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst20
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst9
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst17
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst2
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst16
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst4
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|HalfAdder:inst18
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst|PPgen:inst1
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3
+Sign <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+Negate => inst37.IN0
+Negate => PPgen:inst3.Negate
+Negate => PPgen:inst5.Negate
+Negate => PPgen:inst6.Negate
+Negate => PPgen:inst7.Negate
+Negate => PPgen:inst8.Negate
+Negate => PPgen:inst9.Negate
+Negate => HalfAdder:inst20.Cin
+Negate => PPgen:inst2.Negate
+Negate => PPgen:inst4.Negate
+Negate => PPgen:inst1.Negate
+Double => inst37.IN1
+Double => PPgen:inst3.Double
+Double => PPgen:inst5.Double
+Double => PPgen:inst6.Double
+Double => PPgen:inst7.Double
+Double => PPgen:inst8.Double
+Double => PPgen:inst9.Double
+Double => PPgen:inst2.Double
+Double => PPgen:inst4.Double
+Double => PPgen:inst1.Double
+Y[0] => NAND8_reducer:inst36.InY[0]
+Y[0] => PPgen:inst8.Yi_m1
+Y[0] => PPgen:inst9.Yi
+Y[1] => NAND8_reducer:inst36.InY[1]
+Y[1] => PPgen:inst7.Yi_m1
+Y[1] => PPgen:inst8.Yi
+Y[2] => NAND8_reducer:inst36.InY[2]
+Y[2] => PPgen:inst6.Yi_m1
+Y[2] => PPgen:inst7.Yi
+Y[3] => NAND8_reducer:inst36.InY[3]
+Y[3] => PPgen:inst5.Yi_m1
+Y[3] => PPgen:inst6.Yi
+Y[4] => NAND8_reducer:inst36.InY[4]
+Y[4] => PPgen:inst3.Yi_m1
+Y[4] => PPgen:inst5.Yi
+Y[5] => NAND8_reducer:inst36.InY[5]
+Y[5] => PPgen:inst3.Yi
+Y[5] => PPgen:inst4.Yi_m1
+Y[6] => NAND8_reducer:inst36.InY[6]
+Y[6] => PPgen:inst2.Yi_m1
+Y[6] => PPgen:inst4.Yi
+Y[7] => NAND8_reducer:inst36.InY[7]
+Y[7] => PPgen:inst2.Yi
+Y[7] => PPgen:inst1.Yi
+Y[7] => PPgen:inst1.Yi_m1
+PP[0] <= HalfAdder:inst20.Sum
+PP[1] <= HalfAdder:inst11.Sum
+PP[2] <= HalfAdder:inst12.Sum
+PP[3] <= HalfAdder:inst13.Sum
+PP[4] <= HalfAdder:inst14.Sum
+PP[5] <= HalfAdder:inst15.Sum
+PP[6] <= HalfAdder:inst16.Sum
+PP[7] <= HalfAdder:inst17.Sum
+PP[8] <= HalfAdder:inst18.Sum
+Single => PPgen:inst3.Single
+Single => PPgen:inst5.Single
+Single => PPgen:inst6.Single
+Single => PPgen:inst7.Single
+Single => PPgen:inst8.Single
+Single => PPgen:inst9.Single
+Single => PPgen:inst2.Single
+Single => PPgen:inst4.Single
+Single => PPgen:inst1.Single
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|NAND8_reducer:inst36
+Reduced_NAND <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+InY[0] => inst19.IN0
+InY[1] => inst19.IN1
+InY[2] => inst11.IN0
+InY[3] => inst11.IN1
+InY[4] => inst10.IN0
+InY[5] => inst10.IN1
+InY[6] => inst22.IN0
+InY[7] => inst18.IN0
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst15
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst3
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst14
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst5
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst13
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst6
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst12
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst7
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst11
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst8
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst20
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst9
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst17
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst2
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst16
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst4
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|HalfAdder:inst18
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst3|PPgen:inst1
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4
+Sign <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+Negate => inst37.IN0
+Negate => PPgen:inst3.Negate
+Negate => PPgen:inst5.Negate
+Negate => PPgen:inst6.Negate
+Negate => PPgen:inst7.Negate
+Negate => PPgen:inst8.Negate
+Negate => PPgen:inst9.Negate
+Negate => HalfAdder:inst20.Cin
+Negate => PPgen:inst2.Negate
+Negate => PPgen:inst4.Negate
+Negate => PPgen:inst1.Negate
+Double => inst37.IN1
+Double => PPgen:inst3.Double
+Double => PPgen:inst5.Double
+Double => PPgen:inst6.Double
+Double => PPgen:inst7.Double
+Double => PPgen:inst8.Double
+Double => PPgen:inst9.Double
+Double => PPgen:inst2.Double
+Double => PPgen:inst4.Double
+Double => PPgen:inst1.Double
+Y[0] => NAND8_reducer:inst36.InY[0]
+Y[0] => PPgen:inst8.Yi_m1
+Y[0] => PPgen:inst9.Yi
+Y[1] => NAND8_reducer:inst36.InY[1]
+Y[1] => PPgen:inst7.Yi_m1
+Y[1] => PPgen:inst8.Yi
+Y[2] => NAND8_reducer:inst36.InY[2]
+Y[2] => PPgen:inst6.Yi_m1
+Y[2] => PPgen:inst7.Yi
+Y[3] => NAND8_reducer:inst36.InY[3]
+Y[3] => PPgen:inst5.Yi_m1
+Y[3] => PPgen:inst6.Yi
+Y[4] => NAND8_reducer:inst36.InY[4]
+Y[4] => PPgen:inst3.Yi_m1
+Y[4] => PPgen:inst5.Yi
+Y[5] => NAND8_reducer:inst36.InY[5]
+Y[5] => PPgen:inst3.Yi
+Y[5] => PPgen:inst4.Yi_m1
+Y[6] => NAND8_reducer:inst36.InY[6]
+Y[6] => PPgen:inst2.Yi_m1
+Y[6] => PPgen:inst4.Yi
+Y[7] => NAND8_reducer:inst36.InY[7]
+Y[7] => PPgen:inst2.Yi
+Y[7] => PPgen:inst1.Yi
+Y[7] => PPgen:inst1.Yi_m1
+PP[0] <= HalfAdder:inst20.Sum
+PP[1] <= HalfAdder:inst11.Sum
+PP[2] <= HalfAdder:inst12.Sum
+PP[3] <= HalfAdder:inst13.Sum
+PP[4] <= HalfAdder:inst14.Sum
+PP[5] <= HalfAdder:inst15.Sum
+PP[6] <= HalfAdder:inst16.Sum
+PP[7] <= HalfAdder:inst17.Sum
+PP[8] <= HalfAdder:inst18.Sum
+Single => PPgen:inst3.Single
+Single => PPgen:inst5.Single
+Single => PPgen:inst6.Single
+Single => PPgen:inst7.Single
+Single => PPgen:inst8.Single
+Single => PPgen:inst9.Single
+Single => PPgen:inst2.Single
+Single => PPgen:inst4.Single
+Single => PPgen:inst1.Single
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|NAND8_reducer:inst36
+Reduced_NAND <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+InY[0] => inst19.IN0
+InY[1] => inst19.IN1
+InY[2] => inst11.IN0
+InY[3] => inst11.IN1
+InY[4] => inst10.IN0
+InY[5] => inst10.IN1
+InY[6] => inst22.IN0
+InY[7] => inst18.IN0
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst15
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst3
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst14
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst5
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst13
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst6
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst12
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst7
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst11
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst8
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst20
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst9
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst17
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst2
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst16
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst4
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|HalfAdder:inst18
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst4|PPgen:inst1
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5
+Sign <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+Negate => inst37.IN0
+Negate => PPgen:inst3.Negate
+Negate => PPgen:inst5.Negate
+Negate => PPgen:inst6.Negate
+Negate => PPgen:inst7.Negate
+Negate => PPgen:inst8.Negate
+Negate => PPgen:inst9.Negate
+Negate => HalfAdder:inst20.Cin
+Negate => PPgen:inst2.Negate
+Negate => PPgen:inst4.Negate
+Negate => PPgen:inst1.Negate
+Double => inst37.IN1
+Double => PPgen:inst3.Double
+Double => PPgen:inst5.Double
+Double => PPgen:inst6.Double
+Double => PPgen:inst7.Double
+Double => PPgen:inst8.Double
+Double => PPgen:inst9.Double
+Double => PPgen:inst2.Double
+Double => PPgen:inst4.Double
+Double => PPgen:inst1.Double
+Y[0] => NAND8_reducer:inst36.InY[0]
+Y[0] => PPgen:inst8.Yi_m1
+Y[0] => PPgen:inst9.Yi
+Y[1] => NAND8_reducer:inst36.InY[1]
+Y[1] => PPgen:inst7.Yi_m1
+Y[1] => PPgen:inst8.Yi
+Y[2] => NAND8_reducer:inst36.InY[2]
+Y[2] => PPgen:inst6.Yi_m1
+Y[2] => PPgen:inst7.Yi
+Y[3] => NAND8_reducer:inst36.InY[3]
+Y[3] => PPgen:inst5.Yi_m1
+Y[3] => PPgen:inst6.Yi
+Y[4] => NAND8_reducer:inst36.InY[4]
+Y[4] => PPgen:inst3.Yi_m1
+Y[4] => PPgen:inst5.Yi
+Y[5] => NAND8_reducer:inst36.InY[5]
+Y[5] => PPgen:inst3.Yi
+Y[5] => PPgen:inst4.Yi_m1
+Y[6] => NAND8_reducer:inst36.InY[6]
+Y[6] => PPgen:inst2.Yi_m1
+Y[6] => PPgen:inst4.Yi
+Y[7] => NAND8_reducer:inst36.InY[7]
+Y[7] => PPgen:inst2.Yi
+Y[7] => PPgen:inst1.Yi
+Y[7] => PPgen:inst1.Yi_m1
+PP[0] <= HalfAdder:inst20.Sum
+PP[1] <= HalfAdder:inst11.Sum
+PP[2] <= HalfAdder:inst12.Sum
+PP[3] <= HalfAdder:inst13.Sum
+PP[4] <= HalfAdder:inst14.Sum
+PP[5] <= HalfAdder:inst15.Sum
+PP[6] <= HalfAdder:inst16.Sum
+PP[7] <= HalfAdder:inst17.Sum
+PP[8] <= HalfAdder:inst18.Sum
+Single => PPgen:inst3.Single
+Single => PPgen:inst5.Single
+Single => PPgen:inst6.Single
+Single => PPgen:inst7.Single
+Single => PPgen:inst8.Single
+Single => PPgen:inst9.Single
+Single => PPgen:inst2.Single
+Single => PPgen:inst4.Single
+Single => PPgen:inst1.Single
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|NAND8_reducer:inst36
+Reduced_NAND <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+InY[0] => inst19.IN0
+InY[1] => inst19.IN1
+InY[2] => inst11.IN0
+InY[3] => inst11.IN1
+InY[4] => inst10.IN0
+InY[5] => inst10.IN1
+InY[6] => inst22.IN0
+InY[7] => inst18.IN0
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst15
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst3
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst14
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst5
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst13
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst6
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst12
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst7
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst11
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst8
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst20
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst9
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst17
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst2
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst16
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst4
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|HalfAdder:inst18
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+Cin => inst.IN1
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|PPgen_wordslice:inst|PPgen_9bits:inst5|PPgen:inst1
+PPi <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Yi_m1 => inst1.IN0
+Double => inst1.IN1
+Yi => inst.IN0
+Single => inst.IN1
+Negate => inst3.IN1
+
+
+|DUT|BoothMultiplier8x8:inst|MBE_wordslice:inst2
+Double[0] <= MBE:inst3.Double
+Double[1] <= MBE:inst2.Double
+Double[2] <= MBE:inst1.Double
+Double[3] <= MBE:inst.Double
+X[0] => MBE:inst3.Xn
+X[1] => MBE:inst2.Xn_m1
+X[1] => MBE:inst3.Xn_p1
+X[2] => MBE:inst2.Xn
+X[3] => MBE:inst1.Xn_m1
+X[3] => MBE:inst2.Xn_p1
+X[4] => MBE:inst1.Xn
+X[5] => MBE:inst.Xn_m1
+X[5] => MBE:inst1.Xn_p1
+X[6] => MBE:inst.Xn
+X[7] => MBE:inst.Xn_p1
+Negate[0] <= MBE:inst3.Negate
+Negate[1] <= MBE:inst2.Negate
+Negate[2] <= MBE:inst1.Negate
+Negate[3] <= MBE:inst.Negate
+Single[0] <= MBE:inst3.Single
+Single[1] <= MBE:inst2.Single
+Single[2] <= MBE:inst1.Single
+Single[3] <= MBE:inst.Single
+
+
+|DUT|BoothMultiplier8x8:inst|MBE_wordslice:inst2|MBE:inst
+Negate <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Xn_p1 => inst4.IN0
+Xn_p1 => inst6.IN0
+Xn_p1 => inst2.IN0
+Double <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Xn => inst1.IN1
+Xn => inst8.IN0
+Xn => inst.IN0
+Xn_m1 => inst1.IN2
+Xn_m1 => inst7.IN0
+Xn_m1 => inst.IN1
+Single <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|MBE_wordslice:inst2|MBE:inst1
+Negate <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Xn_p1 => inst4.IN0
+Xn_p1 => inst6.IN0
+Xn_p1 => inst2.IN0
+Double <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Xn => inst1.IN1
+Xn => inst8.IN0
+Xn => inst.IN0
+Xn_m1 => inst1.IN2
+Xn_m1 => inst7.IN0
+Xn_m1 => inst.IN1
+Single <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|MBE_wordslice:inst2|MBE:inst2
+Negate <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Xn_p1 => inst4.IN0
+Xn_p1 => inst6.IN0
+Xn_p1 => inst2.IN0
+Double <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Xn => inst1.IN1
+Xn => inst8.IN0
+Xn => inst.IN0
+Xn_m1 => inst1.IN2
+Xn_m1 => inst7.IN0
+Xn_m1 => inst.IN1
+Single <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|MBE_wordslice:inst2|MBE:inst3
+Negate <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Xn_p1 => inst4.IN0
+Xn_p1 => inst6.IN0
+Xn_p1 => inst2.IN0
+Double <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Xn => inst1.IN1
+Xn => inst8.IN0
+Xn => inst.IN0
+Xn_m1 => inst1.IN2
+Xn_m1 => inst7.IN0
+Xn_m1 => inst.IN1
+Single <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7
+C[0] <= <GND>
+C[1] <= <GND>
+C[2] <= 4to2_comp:inst0.Carry
+C[3] <= 4to2_comp:inst1.Carry
+C[4] <= 4to2_comp:inst2.Carry
+C[5] <= 4to2_comp:inst3.Carry
+C[6] <= 4to2_comp:inst4.Carry
+C[7] <= 4to2_comp:inst5.Carry
+C[8] <= 4to2_comp:inst6.Carry
+C[9] <= 4to2_comp:inst7.Carry
+C[10] <= 4to2_comp:inst8.Carry
+C[11] <= 4to2_comp:inst9.Carry
+C[12] <= 4to2_comp:inst10.Carry
+C[13] <= 4to2_comp:inst11.Carry
+C[14] <= 4to2_comp:inst12.Carry
+C[15] <= 4to2_comp:inst12.t_i
+PP0[0] => S[0].DATAIN
+PP0[1] => S[1].DATAIN
+PP0[2] => 4to2_comp:inst0.A
+PP0[3] => 4to2_comp:inst1.A
+PP0[4] => 4to2_comp:inst2.A
+PP0[5] => 4to2_comp:inst3.A
+PP0[6] => 4to2_comp:inst4.A
+PP0[7] => 4to2_comp:inst5.A
+PP0[8] => 4to2_comp:inst6.A
+PP1[0] => 4to2_comp:inst0.B
+PP1[1] => 4to2_comp:inst1.B
+PP1[2] => 4to2_comp:inst2.B
+PP1[3] => 4to2_comp:inst3.B
+PP1[4] => 4to2_comp:inst4.B
+PP1[5] => 4to2_comp:inst5.B
+PP1[6] => 4to2_comp:inst6.B
+PP1[7] => 4to2_comp:inst7.B
+PP1[8] => 4to2_comp:inst8.B
+Sign0 => 4to2_comp:inst12.A
+Sign0 => 4to2_comp:inst11.A
+Sign0 => 4to2_comp:inst10.A
+Sign0 => 4to2_comp:inst9.A
+Sign0 => 4to2_comp:inst8.A
+Sign0 => 4to2_comp:inst7.A
+Sign1 => 4to2_comp:inst12.B
+Sign1 => 4to2_comp:inst11.B
+Sign1 => 4to2_comp:inst10.B
+Sign1 => 4to2_comp:inst9.B
+Sign2 => 4to2_comp:inst12.C
+Sign2 => 4to2_comp:inst11.C
+PP3[0] => 4to2_comp:inst4.D
+PP3[1] => 4to2_comp:inst5.D
+PP3[2] => 4to2_comp:inst6.D
+PP3[3] => 4to2_comp:inst7.D
+PP3[4] => 4to2_comp:inst8.D
+PP3[5] => 4to2_comp:inst9.D
+PP3[6] => 4to2_comp:inst10.D
+PP3[7] => 4to2_comp:inst11.D
+PP3[8] => 4to2_comp:inst12.D
+PP2[0] => 4to2_comp:inst2.C
+PP2[1] => 4to2_comp:inst3.C
+PP2[2] => 4to2_comp:inst4.C
+PP2[3] => 4to2_comp:inst5.C
+PP2[4] => 4to2_comp:inst6.C
+PP2[5] => 4to2_comp:inst7.C
+PP2[6] => 4to2_comp:inst8.C
+PP2[7] => 4to2_comp:inst9.C
+PP2[8] => 4to2_comp:inst10.C
+S[0] <= PP0[0].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= PP0[1].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= 4to2_comp:inst0.Sum
+S[3] <= 4to2_comp:inst1.Sum
+S[4] <= 4to2_comp:inst2.Sum
+S[5] <= 4to2_comp:inst3.Sum
+S[6] <= 4to2_comp:inst4.Sum
+S[7] <= 4to2_comp:inst5.Sum
+S[8] <= 4to2_comp:inst6.Sum
+S[9] <= 4to2_comp:inst7.Sum
+S[10] <= 4to2_comp:inst8.Sum
+S[11] <= 4to2_comp:inst9.Sum
+S[12] <= 4to2_comp:inst10.Sum
+S[13] <= 4to2_comp:inst11.Sum
+S[14] <= 4to2_comp:inst12.Sum
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst0
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst12
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst11
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst10
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst9
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst8
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst7
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst6
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst5
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst4
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst3
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst2
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|4to2_comp_wordslice:inst7|4to2_comp:inst1
+Sum <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+t_im1 => inst6.IN0
+t_im1 => inst5.IN1
+D => inst8.IN0
+D => inst10.IN0
+A => inst8.IN1
+A => inst10.IN1
+C => inst.IN0
+C => inst7.IN0
+B => inst.IN1
+B => inst7.IN1
+Carry <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+t_i <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6
+C[0] <= FullAdder:inst.Cout
+C[1] <= FullAdder:inst2.Cout
+C[2] <= FullAdder:inst3.Cout
+C[3] <= FullAdder:inst4.Cout
+C[4] <= FullAdder:inst6.Cout
+C[5] <= FullAdder:inst5.Cout
+C[6] <= FullAdder:inst7.Cout
+C[7] <= FullAdder:inst8.Cout
+C[8] <= FullAdder:inst9.Cout
+C[9] <= FullAdder:inst10.Cout
+C[10] <= FullAdder:inst11.Cout
+C[11] <= FullAdder:inst12.Cout
+C[12] <= FullAdder:inst13.Cout
+C[13] <= FullAdder:inst14.Cout
+A[0] => FullAdder:inst.A
+A[1] => FullAdder:inst2.A
+A[2] => FullAdder:inst3.A
+A[3] => FullAdder:inst4.A
+A[4] => FullAdder:inst6.A
+A[5] => FullAdder:inst5.A
+A[6] => FullAdder:inst7.A
+A[7] => FullAdder:inst8.A
+A[8] => FullAdder:inst9.A
+A[9] => FullAdder:inst10.A
+A[10] => FullAdder:inst11.A
+A[11] => FullAdder:inst12.A
+A[12] => FullAdder:inst13.A
+B[0] => FullAdder:inst2.B
+B[1] => FullAdder:inst3.B
+B[2] => FullAdder:inst4.B
+B[3] => FullAdder:inst6.B
+B[4] => FullAdder:inst5.B
+B[5] => FullAdder:inst7.B
+B[6] => FullAdder:inst8.B
+B[7] => FullAdder:inst9.B
+B[8] => FullAdder:inst10.B
+B[9] => FullAdder:inst11.B
+B[10] => FullAdder:inst12.B
+B[11] => FullAdder:inst13.B
+B[12] => FullAdder:inst14.B
+B[13] => ~NO_FANOUT~
+S[0] <= FullAdder:inst.Sum
+S[1] <= FullAdder:inst2.Sum
+S[2] <= FullAdder:inst3.Sum
+S[3] <= FullAdder:inst4.Sum
+S[4] <= FullAdder:inst6.Sum
+S[5] <= FullAdder:inst5.Sum
+S[6] <= FullAdder:inst7.Sum
+S[7] <= FullAdder:inst8.Sum
+S[8] <= FullAdder:inst9.Sum
+S[9] <= FullAdder:inst10.Sum
+S[10] <= FullAdder:inst11.Sum
+S[11] <= FullAdder:inst12.Sum
+S[12] <= FullAdder:inst13.Sum
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst12
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst11
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst10
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst9
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst8
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst7
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst5
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst6
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst4
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst3
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst2
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst13
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|BoothMultiplier8x8:inst|CRA_wordslice:inst6|FullAdder:inst14
+Cout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst.IN1
+B => inst3.IN1
+A => inst4.IN1
+A => inst5.IN1
+A => inst3.IN0
+Cin => inst5.IN0
+Cin => inst.IN0
+Cin => inst2.IN1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Mult_tester:inst2
+Test[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+Test[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Test[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Test[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Test[4] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Test[5] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Test[6] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Test[7] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+Test[8] <= inst1771.DB_MAX_OUTPUT_PORT_TYPE
+Test[9] <= inst1077.DB_MAX_OUTPUT_PORT_TYPE
+Test[10] <= inst9888.DB_MAX_OUTPUT_PORT_TYPE
+Test[11] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Test[12] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Test[13] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Test[14] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Test[15] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => inst12.IN0
+A[1] => inst11.IN0
+A[2] => inst10.IN0
+A[3] => inst9.IN0
+A[4] => inst6.IN0
+A[5] => inst5.IN0
+A[6] => inst4.IN0
+A[7] => inst16.IN0
+A[8] => inst1771.IN0
+A[9] => inst1077.IN0
+A[10] => inst9888.IN0
+A[11] => inst8.IN0
+A[12] => inst3.IN0
+A[13] => inst2.IN0
+A[14] => inst1.IN0
+A[15] => inst.IN0
+B[0] => inst12.IN1
+B[1] => inst11.IN1
+B[2] => inst10.IN1
+B[3] => inst9.IN1
+B[4] => inst6.IN1
+B[5] => inst5.IN1
+B[6] => inst4.IN1
+B[7] => inst16.IN1
+B[8] => inst1771.IN1
+B[9] => inst1077.IN1
+B[10] => inst9888.IN1
+B[11] => inst8.IN1
+B[12] => inst3.IN1
+B[13] => inst2.IN1
+B[14] => inst1.IN1
+B[15] => inst.IN1
+
+
+|DUT|testMUL:inst1
+dataa[0] => lpm_mult:lpm_mult_component.dataa[0]
+dataa[1] => lpm_mult:lpm_mult_component.dataa[1]
+dataa[2] => lpm_mult:lpm_mult_component.dataa[2]
+dataa[3] => lpm_mult:lpm_mult_component.dataa[3]
+dataa[4] => lpm_mult:lpm_mult_component.dataa[4]
+dataa[5] => lpm_mult:lpm_mult_component.dataa[5]
+dataa[6] => lpm_mult:lpm_mult_component.dataa[6]
+dataa[7] => lpm_mult:lpm_mult_component.dataa[7]
+datab[0] => lpm_mult:lpm_mult_component.datab[0]
+datab[1] => lpm_mult:lpm_mult_component.datab[1]
+datab[2] => lpm_mult:lpm_mult_component.datab[2]
+datab[3] => lpm_mult:lpm_mult_component.datab[3]
+datab[4] => lpm_mult:lpm_mult_component.datab[4]
+datab[5] => lpm_mult:lpm_mult_component.datab[5]
+datab[6] => lpm_mult:lpm_mult_component.datab[6]
+datab[7] => lpm_mult:lpm_mult_component.datab[7]
+result[0] <= lpm_mult:lpm_mult_component.result[0]
+result[1] <= lpm_mult:lpm_mult_component.result[1]
+result[2] <= lpm_mult:lpm_mult_component.result[2]
+result[3] <= lpm_mult:lpm_mult_component.result[3]
+result[4] <= lpm_mult:lpm_mult_component.result[4]
+result[5] <= lpm_mult:lpm_mult_component.result[5]
+result[6] <= lpm_mult:lpm_mult_component.result[6]
+result[7] <= lpm_mult:lpm_mult_component.result[7]
+result[8] <= lpm_mult:lpm_mult_component.result[8]
+result[9] <= lpm_mult:lpm_mult_component.result[9]
+result[10] <= lpm_mult:lpm_mult_component.result[10]
+result[11] <= lpm_mult:lpm_mult_component.result[11]
+result[12] <= lpm_mult:lpm_mult_component.result[12]
+result[13] <= lpm_mult:lpm_mult_component.result[13]
+result[14] <= lpm_mult:lpm_mult_component.result[14]
+result[15] <= lpm_mult:lpm_mult_component.result[15]
+
+
+|DUT|testMUL:inst1|lpm_mult:lpm_mult_component
+dataa[0] => mult_71n:auto_generated.dataa[0]
+dataa[1] => mult_71n:auto_generated.dataa[1]
+dataa[2] => mult_71n:auto_generated.dataa[2]
+dataa[3] => mult_71n:auto_generated.dataa[3]
+dataa[4] => mult_71n:auto_generated.dataa[4]
+dataa[5] => mult_71n:auto_generated.dataa[5]
+dataa[6] => mult_71n:auto_generated.dataa[6]
+dataa[7] => mult_71n:auto_generated.dataa[7]
+datab[0] => mult_71n:auto_generated.datab[0]
+datab[1] => mult_71n:auto_generated.datab[1]
+datab[2] => mult_71n:auto_generated.datab[2]
+datab[3] => mult_71n:auto_generated.datab[3]
+datab[4] => mult_71n:auto_generated.datab[4]
+datab[5] => mult_71n:auto_generated.datab[5]
+datab[6] => mult_71n:auto_generated.datab[6]
+datab[7] => mult_71n:auto_generated.datab[7]
+sum[0] => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mult_71n:auto_generated.result[0]
+result[1] <= mult_71n:auto_generated.result[1]
+result[2] <= mult_71n:auto_generated.result[2]
+result[3] <= mult_71n:auto_generated.result[3]
+result[4] <= mult_71n:auto_generated.result[4]
+result[5] <= mult_71n:auto_generated.result[5]
+result[6] <= mult_71n:auto_generated.result[6]
+result[7] <= mult_71n:auto_generated.result[7]
+result[8] <= mult_71n:auto_generated.result[8]
+result[9] <= mult_71n:auto_generated.result[9]
+result[10] <= mult_71n:auto_generated.result[10]
+result[11] <= mult_71n:auto_generated.result[11]
+result[12] <= mult_71n:auto_generated.result[12]
+result[13] <= mult_71n:auto_generated.result[13]
+result[14] <= mult_71n:auto_generated.result[14]
+result[15] <= mult_71n:auto_generated.result[15]
+
+
+|DUT|testMUL:inst1|lpm_mult:lpm_mult_component|mult_71n:auto_generated
+dataa[0] => cycloneii_mac_mult:mac_mult1.DATAA[0]
+dataa[1] => cycloneii_mac_mult:mac_mult1.DATAA[1]
+dataa[2] => cycloneii_mac_mult:mac_mult1.DATAA[2]
+dataa[3] => cycloneii_mac_mult:mac_mult1.DATAA[3]
+dataa[4] => cycloneii_mac_mult:mac_mult1.DATAA[4]
+dataa[5] => cycloneii_mac_mult:mac_mult1.DATAA[5]
+dataa[6] => cycloneii_mac_mult:mac_mult1.DATAA[6]
+dataa[7] => cycloneii_mac_mult:mac_mult1.DATAA[7]
+datab[0] => cycloneii_mac_mult:mac_mult1.DATAB[0]
+datab[1] => cycloneii_mac_mult:mac_mult1.DATAB[1]
+datab[2] => cycloneii_mac_mult:mac_mult1.DATAB[2]
+datab[3] => cycloneii_mac_mult:mac_mult1.DATAB[3]
+datab[4] => cycloneii_mac_mult:mac_mult1.DATAB[4]
+datab[5] => cycloneii_mac_mult:mac_mult1.DATAB[5]
+datab[6] => cycloneii_mac_mult:mac_mult1.DATAB[6]
+datab[7] => cycloneii_mac_mult:mac_mult1.DATAB[7]
+result[0] <= cycloneii_mac_out:mac_out2.DATAOUT[0]
+result[1] <= cycloneii_mac_out:mac_out2.DATAOUT[1]
+result[2] <= cycloneii_mac_out:mac_out2.DATAOUT[2]
+result[3] <= cycloneii_mac_out:mac_out2.DATAOUT[3]
+result[4] <= cycloneii_mac_out:mac_out2.DATAOUT[4]
+result[5] <= cycloneii_mac_out:mac_out2.DATAOUT[5]
+result[6] <= cycloneii_mac_out:mac_out2.DATAOUT[6]
+result[7] <= cycloneii_mac_out:mac_out2.DATAOUT[7]
+result[8] <= cycloneii_mac_out:mac_out2.DATAOUT[8]
+result[9] <= cycloneii_mac_out:mac_out2.DATAOUT[9]
+result[10] <= cycloneii_mac_out:mac_out2.DATAOUT[10]
+result[11] <= cycloneii_mac_out:mac_out2.DATAOUT[11]
+result[12] <= cycloneii_mac_out:mac_out2.DATAOUT[12]
+result[13] <= cycloneii_mac_out:mac_out2.DATAOUT[13]
+result[14] <= cycloneii_mac_out:mac_out2.DATAOUT[14]
+result[15] <= cycloneii_mac_out:mac_out2.DATAOUT[15]
+
+

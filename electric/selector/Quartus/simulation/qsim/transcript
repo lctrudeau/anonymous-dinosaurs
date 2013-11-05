@@ -1,0 +1,562 @@
+# do TestProject_BoothMultiplier.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DUT
+# 
+# Top level modules:
+# 	DUT
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DUT_vlg_sample_tst
+# -- Compiling module DUT_vlg_check_tst
+# -- Compiling module DUT_vlg_vec_tst
+# 
+# Top level modules:
+# 	DUT_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.DUT_vlg_vec_tst 
+# Loading work.DUT_vlg_vec_tst
+# Loading work.DUT
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_mac_mult
+# Loading cycloneii_ver.cycloneii_mac_data_reg
+# Loading cycloneii_ver.cycloneii_mac_sign_reg
+# Loading cycloneii_ver.cycloneii_mac_mult_internal
+# Loading cycloneii_ver.cycloneii_mac_out
+# Loading work.DUT_vlg_sample_tst
+# Loading work.DUT_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# ERROR! Vector Mismatch for output port DBL[2] :: @time = 4000000.000 ps
+#      Expected value = 0000
+#      Real value = 0100
+# ERROR! Vector Mismatch for output port NEG[0] :: @time = 4000000.000 ps
+#      Expected value = 0000
+#      Real value = 0011
+# ERROR! Vector Mismatch for output port NEG[1] :: @time = 4000000.000 ps
+#      Expected value = 0000
+#      Real value = 0011
+# ERROR! Vector Mismatch for output port PP0[0] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 001110001
+# ERROR! Vector Mismatch for output port PP0[4] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 001110001
+# ERROR! Vector Mismatch for output port PP0[5] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 001110001
+# ERROR! Vector Mismatch for output port PP0[6] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 001110001
+# ERROR! Vector Mismatch for output port PP2[1] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 100011110
+# ERROR! Vector Mismatch for output port PP2[2] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 100011110
+# ERROR! Vector Mismatch for output port PP2[3] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 100011110
+# ERROR! Vector Mismatch for output port PP2[4] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 100011110
+# ERROR! Vector Mismatch for output port PP2[8] :: @time = 4000000.000 ps
+#      Expected value = 000000000
+#      Real value = 100011110
+# ERROR! Vector Mismatch for output port SGL[0] :: @time = 4000000.000 ps
+#      Expected value = 0000
+#      Real value = 0001
+# ERROR! Vector Mismatch for output port Sign2 :: @time = 4000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port NEG[2] :: @time = 4001000.000 ps
+#      Expected value = 0000
+#      Real value = 0100
+# ERROR! Vector Mismatch for output port PP2[5] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 011100010
+# ERROR! Vector Mismatch for output port PP2[6] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 011100010
+# ERROR! Vector Mismatch for output port PP2[7] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 011100010
+# ERROR! Vector Mismatch for output port PP3[0] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP3[1] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP3[2] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP3[3] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP3[7] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP3[8] :: @time = 4001000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port SGL[3] :: @time = 4001000.000 ps
+#      Expected value = 0000
+#      Real value = 1000
+# ERROR! Vector Mismatch for output port PP0[1] :: @time = 4002000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP0[2] :: @time = 4002000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP0[3] :: @time = 4002000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP0[7] :: @time = 4002000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP0[8] :: @time = 4002000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port Sign0 :: @time = 4002000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port DBL[0] :: @time = 4003000.000 ps
+#      Expected value = 0000
+#      Real value = 0101
+# ERROR! Vector Mismatch for output port PP1[0] :: @time = 4003000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP1[1] :: @time = 4003000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP1[2] :: @time = 4003000.000 ps
+#      Expected value = 000000000
+#      Real value = 110001111
+# ERROR! Vector Mismatch for output port PP1[3] :: @time = 4003000.000 ps
+#      Expected value = 000000000
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# ERROR! Vector Mismatch for output port Error[15] :: @time = 129000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1000000000000000
+# ERROR! Vector Mismatch for output port Result[0] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[2] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[5] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[7] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[8] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[10] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[11] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[14] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[15] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[0] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[2] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[5] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[7] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[8] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[10] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[11] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[14] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result_Compare[15] :: @time = 1000000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110110110101
+# ERROR! Vector Mismatch for output port Result[3] :: @time = 1001000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110100111000
+# ERROR! Vector Mismatch for output port Result_Compare[3] :: @time = 1001000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110100111000
+# ERROR! Vector Mismatch for output port Result[1] :: @time = 1002000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110010111011
+# ERROR! Vector Mismatch for output port Result_Compare[1] :: @time = 1002000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100110010111011
+# ERROR! Vector Mismatch for output port Result[6] :: @time = 1004000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100101111000001
+# ERROR! Vector Mismatch for output port Result[9] :: @time = 1004000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100101111000001
+# ERROR! Vector Mismatch for output port Result_Compare[6] :: @time = 1004000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100101111000001
+# ERROR! Vector Mismatch for output port Result_Compare[9] :: @time = 1004000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 1100101111000001
+# ERROR! Vector Mismatch for output port Result[12] :: @time = 1025000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0011111000000000
+# ERROR! Vector Mismatch for output port Result[13] :: @time = 1025000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0011111000000000
+# ERROR! Vector Mismatch for output port Result_Compare[12] :: @time = 1025000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0011111000000000
+# ERROR! Vector Mismatch for output port Result_Compare[13] :: @time = 1025000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0011111000000000
