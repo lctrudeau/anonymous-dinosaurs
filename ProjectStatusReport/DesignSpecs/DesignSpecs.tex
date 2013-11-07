@@ -152,7 +152,7 @@ A simple 3-stage NAND8 reducer was used to cover this special case.
 
 The compressor tree uses thirteen [4:2] compressors optimized for area to
 sum the columns. Each compressor has five inputs: A, B, C, D and $C_{int-1}$ and three outputs: Sum,
-Cint and Cext. The internal carry $C_{int}$ is propagated to the next column and the external carry $C_{ext}$ is
+$C_{int}$ and $C_{ext}$. The internal carry $C_{int}$ is propagated to the next column and the external carry $C_{ext}$ is
 given to the final addition, thus balancing the propagation delay.
 
 
