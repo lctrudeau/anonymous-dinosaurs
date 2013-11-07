@@ -4,8 +4,8 @@ The current GitRepo directory has all the asked deliverables for the Project Sta
 
 Please kindly check the updated GitRepo with all the defined deliverables. Inside each subpath you will find the proper readme.txt file and the related files:
 
-* Desing part :'./DesignSpecs'
-The exploration and the application of the Modified Booth Algorithm are described at the './DesignSpecs' directory. 
+* Desing part : 
+$ ./DesignSpecs = The exploration and the application of the Modified Booth Algorithm are described at the './DesignSpecs' directory. 
 
 
 * Implementation part : 
