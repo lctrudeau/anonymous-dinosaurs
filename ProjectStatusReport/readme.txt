@@ -13,7 +13,6 @@ $ ./Electric = Fully designed and verified circuit schematics : All the designed
 
 $ ./TestBenches = Complete testbenches. All the System Verilog files, the Verilog decks generated using Electric, the used I/O vector files and the proper PrintScreens are given. 
 
-
 Sincerely, 
 The Anonymous-Dinosaurs Team
 
