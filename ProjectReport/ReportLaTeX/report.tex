@@ -83,6 +83,67 @@ The single, double and negative signals are the selected values that signify the
 
 
 
+\section{Architecture}
+
+The main logic to implement the booth multiplier is to be divided into several parts describing the architecture of the multiplier. These parts are: the encoder, the partial products generator, the compressor tree and the final carry propagate adder. Each is presented below with its critical path being described at the end of each.
+
+
+\subsection{Encoder}
+
+The encoder is the circuit elements that observe the 3 bits to be observed to determine what operation is to be done on the Y vector being input to the system, based on the truth table in FIGURE1. Accordingly, it is a combinational circuit design that takes as input 3 bits of input, observes them and asserts the proper signal to be used to describe the operation on Y, either keeping it as is, or doubling, with the third option of negating either of them. The circuit implemented in this project is shown in FIGURE3.
+
+
+Since the X vector is 8-bits of size, taking 3 inputs at a time with the repetition of the MSB for each iteration, hence 4 bitslices of the encoder shown above would be needed to realize the logic needed, working in parallel, so delay is the computed for one bitslice only. The layout for that is in FIGURE4.
+
+\subsubsection{Critical Path Delay}
+
+2XORS
+
+
+\subsection{Partial Products Generator (PPG)}
+
+The PPG is the following part of the circuitry that makes use of the data presented from the encoder signals produced. Consequently, is the first block that takes in the Y vectors as inputs along with the Double, Single, and Negate signals to be treated, and it hence produces the partial products and sign signals to be used by the following step. The implementation of the PPG in schematic and in layout are shown in FIGURE5.
+
+\subsubsection{Critical Path Delay}
+
+2 NANDs + 1 XOR + 10 NANDS
+
+
+\subsection{Compressor Tree}
+
+The following part of the logic is the compressor tree, which computes addition using a full adder logic as shown in the bitslice in FIGURE6
+
+The advantage of the tree architecture is that the delay through it is not as high as any other alternative implementation of the architecture, which is evident in the combined design seen in FIGURE7.
+
+\subsubsection{Critical Path Delay}
+
+2 XORs
+
+
+\subsection{Carry Propagate Adder (CPA)}
+
+This is final stage that computes the overall value of the product of X and Y. It adds up the outputs of the following stage, with the first block having only 2, hence a half adder was implemented to save up on transistor count.
+
+Exploiting the fact that the critical path delay of the overall design combined comes through the last block of full adder, with that critical delay being larger than that of the CPA adder itself (with a worst case delay assumed for ripple-carry adder), we realize that it is ultimately more beneficial to optimize for transistor count rather than delay. This resulted in designing a ripple-carry adder.
+
+For the full adder blocks, multiple realizations where compared seen in TABLE1.
+
+
+It is seen that the FA3 design results in the least number of transistors per bit due to exploiting the readily available signal from $CTODO$. Luckily, it is the one available in the given standard library. Transistor level schematic is shown in FIGURE8.
+
+\subsubsection{Critical Path Delay}
+
+CPA only: 12 MAJ + 1 AND + 1 XOR
+Through overall: 1 XOR
+
+
+\subsection{Whole Design}
+
+The whole design in FIGURE9 is the schematic level, while the layout level is shown below as part of the MIPS core to save report space.
+
+
+
+
 
 
 % that's all folks
